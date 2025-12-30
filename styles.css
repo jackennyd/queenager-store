@@ -281,4 +281,23 @@ footer {
   flex-wrap: wrap;
   gap: 0.8rem;
   justify-content: space-between;
+} 
+.payment-block {
+  margin-top: 1.5rem;
+  padding: 1.2rem;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 14px;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.04),
+    rgba(255,255,255,0.01)
+  );
+}
+
+.payment-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #d8b56a;
+  margin-bottom: 0.6rem;
 }
